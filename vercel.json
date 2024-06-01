@@ -10,5 +10,6 @@
 	],
 	"rewrites": [
 		{ "source": "/(.*)", "destination": "/" }
-	]
+	],
+	"installCommand": "npm install"
 }
