@@ -4,7 +4,7 @@ require("http").createServer((request, response) => {
 		return;
  
 	response.setHeader("Content-Type", "text/plain");
-	response.write(`THE URI IS: ${request.uri}`);
+	response.write(`THE URL IS: ${request.url}`);
 
 	response.end();
 }).listen(80);
