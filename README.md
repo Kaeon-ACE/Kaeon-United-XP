@@ -1,4 +1,4 @@
-<h1 align="center">Kaeon United XP</h1>
+<h1 align="center">Kaeon United</h1>
 
 <h2 align="center">Philosophy</h2>
 
