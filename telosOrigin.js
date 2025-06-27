@@ -19,7 +19,13 @@ catch(error) {
 
 	package = { packages: { } };
 
-	fs.writeFileSync(packagePath, JSON.stringify(package, null, "\t"));
+	try {
+		fs.writeFileSync(packagePath, JSON.stringify(package, null, "\t"));
+	}
+
+	catch(error) {
+
+	}
 }
 
 let args = [].concat(process.argv);
@@ -80,8 +86,16 @@ if(args[2] == "-m") {
 		});
 	}
 
-	if(operation == "install" || operation == "uninstall")
-		fs.writeFileSync(packagePath, JSON.stringify(package, null, "\t"));
+	if(operation == "install" || operation == "uninstall") {
+
+		try {
+			fs.writeFileSync(packagePath, JSON.stringify(package, null, "\t"));
+		}
+
+		catch(error) {
+			
+		}
+	}
 
 	if(operation == "list")
 		console.log(Object.keys(package.packages).join("\n"));
