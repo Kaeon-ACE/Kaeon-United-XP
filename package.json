@@ -9,10 +9,12 @@
 	"dependencies": {
 		"apint": "^1.0.1",
 		"bus-net": "^1.0.2",
-		"telos-server": "^1.0.3",
+		"telos-server": "^1.0.4",
 		"telos-use-js": "~1.0.3",
 		"xmlhttprequest": "~1.8.0"
 	},
 	"author": "",
-	"license": "Apache-2.0"
+	"license": "Apache-2.0",
+	"devDependencies": {},
+	"keywords": []
 }

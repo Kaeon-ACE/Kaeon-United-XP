@@ -140,7 +140,10 @@ else if(args.includes("-e")) {
 	});
 
 	busNet.call(JSON.stringify({
-		content: { APInt: package, arguments: args.slice(i + 1) },
+		content: {
+			APInt: package,
+			arguments: args.slice(i + 1).concat(["-port", "3000"])
+		},
 		tags: ["telos-origin", "initialize"]
 	}));
 }
