@@ -3,7 +3,7 @@
 	"env": { },
 	"builds": [
 		{
-			"src": "index.js",
+			"src": "telosOrigin.js",
 			"use": "@vercel/node",
 			"config": { "includeFiles": ["./**"] }
 		}

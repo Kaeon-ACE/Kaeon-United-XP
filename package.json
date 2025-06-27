@@ -1,15 +1,19 @@
 {
-	"name": "kaeon-origin-axis",
+	"name": "telos-server-project",
 	"version": "1.0.0",
 	"description": "It just works",
-	"main": "kaeonUnitedSingularityBootstrap.js",
+	"main": "telosOrigin.js",
 	"scripts": {
-		"start": "node kaeonUnitedSingularityBootstrap.js"
+		"start": "node telosOrigin"
 	},
 	"dependencies": {
-		"kaeon-united": "~1.0.0",
+		"apint": "^1.0.1",
+		"bus-net": "^1.0.2",
+		"telos-server": "^1.0.3",
 		"xmlhttprequest": "~1.8.0"
 	},
 	"author": "",
-	"license": "Apache-2.0"
+	"license": "Apache-2.0",
+	"keywords": [],
+	"devDependencies": {}
 }
