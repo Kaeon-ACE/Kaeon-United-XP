@@ -1,20 +1,19 @@
 {
-	"name": "kaeon-origin-axis",
+	"name": "kaeon-united-xp",
 	"version": "1.0.0",
-	"description": "It just works",
-	"main": "telosOrigin.js",
+	"main": "index.js",
 	"scripts": {
-		"start": "node telosOrigin.js"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npm telosOrigin.js"
 	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
 	"dependencies": {
 		"apint": "^1.0.1",
 		"bus-net": "^1.0.2",
-		"telos-server": "^1.0.4",
-		"telos-use-js": "~1.0.3",
-		"xmlhttprequest": "~1.8.0"
+		"telos-server": "^1.0.7"
 	},
-	"author": "",
-	"license": "Apache-2.0",
 	"devDependencies": {},
-	"keywords": []
+	"description": ""
 }
